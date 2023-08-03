@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-size: 500px;
+    
+}
+.highlight {
+    font-weight: bold;
+}
+th 
+ {
+    background-color: aliceblue;
+    border: 1px solid #000000;
+        text-align: center;
+      }
+td {
+    border: 1px solid #000000;
+}
+.aside {
+    background-color: beige;
+    width: 500px;
+    text-align: right;
+}
+      
