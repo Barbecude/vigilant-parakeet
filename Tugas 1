@@ -7,39 +7,38 @@
             border: 1;
         }
         .double {
-            border: 1 ;
+            border: 1;
         }
     </style>
 </head>
 <body>
-<table>
-      <table border="1">
-        <tr>
-         <th>Header 1</th>
-          <th>Header 2</th>
-          <th>Header 3</th>
-          <th>Header 4</th>
-        </tr>
-        <tr>
-         <td rowspan="2">Cell 1</td>
-         <td >Cell 2</td>
-         <td>Cell 3</td>
-         <td>Cell 4</td>   
-        </tr>
-        <tr>  
-         <td colspan="2">Cell 2 dan Cell 3 Gabungan</td>       
-         <td>Cell 5</td>    
-        </tr>
-        <tr>
-            <td>Cell 1</td>       
-            <td rowspan="2" colspan="2">Cell 2, Cell 3 Cell 4 Gabungan</td>
-        </tr>
-        <tr>
-            <td>Cell 1</td>
-            <td>Cell 6</td>        
-        </tr>
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th> 
+    </tr>
+    <tr>
+        <td rowspan="2">Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+        <td>Cell 4</td>  
+    </tr>
+    <tr>  
+        <td colspan="2">Cell 2 dan Cell 3 Gabungan</td>       
+        <td>Cell 5</td>    
+    </tr>
+    <tr>
+        <td>Cell 1</td> 
+        <td rowspan="2" colspan="2">Cell 2, Cell 3 Cell 4 Gabungan</td>
         
-       </table>
+        <td>Cell 6</td>
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 7</td>
+    </tr>
 </table>
 </body>
 </html>
